@@ -5,7 +5,7 @@ function change(index){
 
     switch(index){
         case 1:
-           p.innerHTML = `<iframe src="./demo_/W01_87/" width="100%" height="100%"/>`
+           p.innerHTML = `<iframe src="./demo/w01_87/index.html" width="100%" height="100%"/>`
            break;
         case 2:
 
