@@ -1,6 +1,6 @@
 function change(index){
 
-    const p = document.querySelector('.show-classdemo');
+    const p = document.querySelector('#nav');
     console.log('p',p);
 
     switch(index){
