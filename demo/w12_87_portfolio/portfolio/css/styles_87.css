@@ -63,7 +63,7 @@ body {
   font-family: var(--ff-secondary);
   background: var(--clr-white);
   color: var(--clr-grey-1);
-  line-height: 1.5;
+  line-height: 2;
   font-size: 0.875rem;
 }
 
@@ -279,6 +279,9 @@ sidebar
   margin: 1.5rem;
 }
 .social-icons .fa-brands {
+  color: var(--clr-grey-5);
+}
+.social-icons .fa-solid {
   color: var(--clr-grey-5);
 }
 
