@@ -126,18 +126,24 @@ sidebar
 }
 
 .social-icons {
-   display: flex;
-   justify-content: center;
-   font-size: 1.5rem;
-   gap: 2rem;
-   margin: 1.5rem;
-    .fa-brands {
-        color: var(--clr-grey-5);
-    }
-    .fa-solid {
-        color: var(--clr-grey-5);
-    }
-}
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    gap: 2rem;
+    
+     .fa-brands {
+         color: var(--clr-grey-5);
+         &:hover {
+            color: var(--clr-primary-5);
+          }
+     }
+     .fa-solid {
+         color: var(--clr-grey-5);
+         &:hover {
+            color: var(--clr-primary-5);
+          }
+     }
+ }
 
 /*
 =============== 
@@ -154,6 +160,24 @@ Hero
         //justify-content: center;
         place-items: center;
     }
+
+    .underline {
+        margin-left: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero-info h4 {
+        color: var(--clr-grey-5);
+    }
+
+    &-icons{
+        justify-content: start;
+    }
+
+    &-btn {
+        margin-top: 1.25rem;
+    }
+
     &-img {
         display: none;
     }
