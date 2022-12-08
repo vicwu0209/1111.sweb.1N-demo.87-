@@ -14,10 +14,12 @@
 
 ![](w11-p4.png)
 
-### w11-logs: w09 logs
+### 補救-logs: 補救 logs
 
-![](w011-logs.png)
+![](補救-logs.png)
 
 ```
-$ git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --after="2022-11-02"
+$ git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --after="2022-12-07"
+194f1ed vicwu0209Thu Dec 8 16:22:41 2022 +0800   補救-P3: answer of p3_87 using scss
+a315751 vicwu0209Thu Dec 8 16:21:46 2022 +0800   補救-P2: answer of p2_87 using scss
 ```
