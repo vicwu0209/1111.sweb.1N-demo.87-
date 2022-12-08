@@ -2,11 +2,11 @@
 
 [My Github repo](https://github.com/vicwu0209/1111.sweb.1N-demo.87-.git)
 
-### W11-P1: answer of p1_xx using scss
+### 補救-P2: answer of p2_87 using scss
 
 ![](p2.87.png)
 
-### W11-P1: answer of p2_xx using scss
+### 補救-P3: answer of p3_87 using scss
 
 ![](p3.87.png)
 
