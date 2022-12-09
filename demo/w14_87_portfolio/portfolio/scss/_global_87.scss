@@ -64,7 +64,7 @@ body {
   font-family: var(--ff-secondary);
   background: var(--clr-white);
   color: var(--clr-grey-1);
-  line-height: 2;
+  line-height: 1.5;
   font-size: 0.875rem;
 }
 ul {
@@ -161,11 +161,11 @@ p {
 }
 
 .section-title {
-  margin-bottom: 10rem;
-  text-align: center;
+  margin-bottom: 4rem;
+  // text-align: center;
 }
 
-.underline{
+.underline {
   width: 5rem;
   height: 0.25rem;
   background-color: var(--clr-primary-5);
@@ -173,24 +173,22 @@ p {
   margin: 0 auto;
 }
 
-.social-icons{
+.social-icons {
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
   margin-top: 3rem;
   justify-content: center;
   align-items: center;
 }
 
-.social-icon{
-  font-size: 1.5rem;
+.social-icon {
+  font-size: 2rem;
   color: var(--clr-grey-5);
   transition: var(--transition);
-  
-  &:hover {
-    color: var(--clr-primary-5);
 
+  
 }
-}
+
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;

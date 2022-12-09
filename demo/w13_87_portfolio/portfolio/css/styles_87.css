@@ -144,7 +144,6 @@ h4 {
   letter-spacing: var(--spacing);
   display: inline-block;
   font-weight: 700;
-  -webkit-transition: var(--transition);
   transition: var(--transition);
   font-size: 0.875rem;
   border: 2px solid transparent;
@@ -357,7 +356,8 @@ Hero
 .hero-photo {
   max-width: 25rem;
   max-height: 30rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: var(--radius);
   position: relative;
 }
@@ -414,7 +414,8 @@ about
 .about-photo {
   max-width: 25rem;
   max-height: 30rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: var(--radius);
   position: relative;
 }
@@ -438,6 +439,4 @@ about
     border: 0.25rem solid var(--clr-primary-5);
     border-radius: var(--radius);
   }
-}
-
-/*# sourceMappingURL=styles_87.css.map */
+}/*# sourceMappingURL=styles_87.css.map */

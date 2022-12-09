@@ -14,34 +14,24 @@ Product
   box-shadow: var(--shadow-3);
 }
 .product-container .single-product footer {
-  flex: 1 1 0%;
-    padding: 0px 0.5em 0.5em;
-    position: relative;
-    height: 10rem;
+  padding: 0.75rem 0;
+  text-align: center;
 }
 .product-container .single-product footer .name {
   text-transform: capitalize;
   letter-spacing: var(--letterSpacing);
   color: var(--grey-500);
-  font-size: 1.5em;
 }
 .product-container .single-product footer .price {
   color: var(--grey-700);
   font-weight: 700;
   font-size: 1rem;
 }
-.product-container .single-product footer .date {
-  color: var(--grey-700);
-  font-weight: 700;
-  font-size: 1rem;
-
-}
 .product-container .single-product-img {
-  width: 100%;
-    height: 40rem;
-    background-image: url(https://movies.yahoo.com.tw/i/o/production/movies/November2022/I8xALpzMGFHhnSO2glZU-1080x1542.jpg);
-    background-size: cover;
-    background-position: center center;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.133);}
-/*# sourceMappingURL=p2_87.css.map */
+  display: block;
+  width: 25rem;
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: var(--borderReaius);
+}/*# sourceMappingURL=p2_87.css.map */

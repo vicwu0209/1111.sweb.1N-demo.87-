@@ -144,7 +144,6 @@ h4 {
   letter-spacing: var(--spacing);
   display: inline-block;
   font-weight: 700;
-  -webkit-transition: var(--transition);
   transition: var(--transition);
   font-size: 0.875rem;
   border: 2px solid transparent;
@@ -283,6 +282,4 @@ sidebar
 }
 .social-icons .fa-solid {
   color: var(--clr-grey-5);
-}
-
-/*# sourceMappingURL=styles_87.css.map */
+}/*# sourceMappingURL=styles_87.css.map */
