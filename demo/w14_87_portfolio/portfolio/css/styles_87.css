@@ -312,12 +312,21 @@ Sidebar
 }
 
 .social-icons {
+  display: flex;
+  justify-content: center;
   font-size: 1.5rem;
+  gap: 2rem;
 }
 .social-icons .fa-brands {
   color: var(--clr-grey-5);
 }
 .social-icons .fa-brands:hover {
+  color: var(--clr-primary-5);
+}
+.social-icons .fa-solid {
+  color: var(--clr-grey-5);
+}
+.social-icons .fa-solid:hover {
   color: var(--clr-primary-5);
 }
 
@@ -494,6 +503,7 @@ Projects
   top: 50%;
   transform: translate(-50%, -50%);
   color: var(--clr-white);
+  transition: var(--transition);
   opacity: 0;
   height: 85vh;
 }
@@ -597,4 +607,4 @@ Services
   .services-title {
     grid-template-columns: 1fr 1fr 1fr;
   }
-}/*# sourceMappingURL=styles_11.css.map */
+}/*# sourceMappingURL=styles_87.css.map */

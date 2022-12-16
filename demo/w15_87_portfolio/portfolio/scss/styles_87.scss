@@ -561,6 +561,10 @@ Skills
         &-80 {
             width: 80%;
         }
+
+        &-70 {
+            width: 70%;
+        }
     }
 }
 
@@ -606,7 +610,7 @@ Timeline
         padding-left: 0;
 
         .number {
-            left: 0;
+            right: 0;
             transform: translate(50%, -50%);
         }
    }
