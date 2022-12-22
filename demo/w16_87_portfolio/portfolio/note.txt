@@ -1,0 +1,4 @@
+sass --watch demo/w16_87_portfolio/portfolio/scss:demo/w16_87_portfolio/portfolio/css
+git config --global user.email "asd885151@gmail.com"
+git config --global user.name "vicwu0209"
+git status
