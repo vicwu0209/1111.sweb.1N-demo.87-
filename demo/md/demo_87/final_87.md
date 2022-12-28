@@ -2,6 +2,10 @@
 
 [My Github repo](https://github.com/vicwu0209/1111.sweb.1N-demo.87-.git)
 
+### Github Vercel
+https://github.com/vicwu0209/1111.sweb.1N-demo.87-.git
+https://1111-sweb-1-n-demo-87-vohw.vercel.app/
+
 ### github commits w11~17
 
 ![](w11-87.png)
