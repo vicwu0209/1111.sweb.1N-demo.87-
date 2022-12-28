@@ -140,7 +140,7 @@ p {
     font-size: 1rem;
     }
     body {
-    font-size: 1rem;
+    font-size: 1.5rem;
     }
     h1,
     h2,
@@ -214,6 +214,9 @@ p {
 Navbar
 ===============
 */
+
+
+
 
 .navbar {
     background-color: var(--clr-primary-10);
